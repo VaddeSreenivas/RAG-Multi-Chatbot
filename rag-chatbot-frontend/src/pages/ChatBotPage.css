@@ -1,0 +1,78 @@
+/* Main layout */
+.chatbot-layout {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #5a00b3;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar .title {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 12px 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.sidebar nav a.active,
+.sidebar nav a:hover {
+  opacity: 1;
+  font-weight: bold;
+}
+
+/* Main content */
+.content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+/* Row wrapper – prevents overlap */
+.row {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Buttons */
+.btn {
+  background: #8000ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background: #6400c2;
+}
+
+.generate {
+  background: #a100ff;
+}
+
+/* Text area */
+.text-box {
+  width: 100%;
+  height: 130px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: none;
+}

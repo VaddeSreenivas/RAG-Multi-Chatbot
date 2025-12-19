@@ -1,0 +1,145 @@
+/* RESET */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* MAIN LAYOUT */
+.chatbot-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #f8f9fc;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: #4a3fb0;
+  color: white;
+  padding: 22px 18px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  margin: 0 0 28px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  transition: background 0.25s;
+}
+
+.sidebar ul li.active,
+.sidebar ul li:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  flex: 1;
+  background: white;
+  padding: 30px 20px;   /* REDUCED horizontal padding */
+  box-sizing: border-box;
+  border-left: 1px solid #ddd; /* thinner line, cleaner */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  margin-top: 0;
+}
+
+/* CENTER CONTENT */
+.content {
+  max-width: 800px;     /* optional width */
+  width: 100%;
+  margin: 0;            /* removed auto-centering — FIXES GAP */
+}
+
+/* INPUTS & FILE UPLOAD */
+.content input[type="text"],
+.content input[type="file"] {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* BUTTONS */
+.content button {
+  background: #6a5ae0;
+  color: white;
+  padding: 12px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.content button:hover {
+  background: #5a4acb;
+}
+
+/* RESPONSE BOX */
+.response {
+  margin-top: 20px;
+  padding: 20px;
+  min-height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 17px;
+  background: #fafafa;
+  overflow-y: auto;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 180px;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+}
