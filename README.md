@@ -28,3 +28,9 @@ This is a Spring Boot web application that uses [Spring AI](https://docs.spring.
 * Java 17
 * Lombok
 * Maven
+
+## UI Screenshots:
+<img width="943" height="547" alt="image" src="https://github.com/user-attachments/assets/159914fc-31d2-4cff-a0b4-7d233072fcae" />
+<img width="949" height="534" alt="image" src="https://github.com/user-attachments/assets/373a06ee-08c5-488b-be4a-2e868fa00e28" />
+
+
