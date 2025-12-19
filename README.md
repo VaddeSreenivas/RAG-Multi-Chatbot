@@ -30,7 +30,15 @@ This is a Spring Boot web application that uses [Spring AI](https://docs.spring.
 * Maven
 
 ## UI Screenshots:
-<img width="943" height="547" alt="image" src="https://github.com/user-attachments/assets/159914fc-31d2-4cff-a0b4-7d233072fcae" />
+<img width="935" height="489" alt="image" src="https://github.com/user-attachments/assets/d631fe6b-c257-4b62-8f66-58bc17f1af76" />
+
 <img width="949" height="534" alt="image" src="https://github.com/user-attachments/assets/373a06ee-08c5-488b-be4a-2e868fa00e28" />
+<img width="940" height="502" alt="image" src="https://github.com/user-attachments/assets/ee24dde8-52d0-49ff-bf63-91169331778f" />
+<img width="943" height="485" alt="image" src="https://github.com/user-attachments/assets/d1232901-506d-46bb-b58f-487563ed65c9" />
+<img width="931" height="518" alt="image" src="https://github.com/user-attachments/assets/d44e3edd-c160-4385-8bd4-5411cda8a94b" />
+
+
+
+
 
 
